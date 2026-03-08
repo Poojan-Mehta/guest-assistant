@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/health', (req, res) => {
-  res.json({ status: 'Server is running good df' });
+  res.json({ status: 'Server is running good' });
 });
 
 module.exports = app;
